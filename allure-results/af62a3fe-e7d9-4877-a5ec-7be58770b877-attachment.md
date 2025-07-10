@@ -1,0 +1,1286 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "trivago logo":
+    - /url: /en-US
+    - img
+  - navigation:
+    - list:
+      - listitem:
+        - button "Recently viewed"
+      - listitem:
+        - link "Favorites":
+          - /url: /en-US/profile/favorites/
+      - listitem:
+        - button "EN · $"
+      - listitem:
+        - button "Log in"
+      - listitem:
+        - button "Menu"
+- main:
+  - combobox:
+    - button "Destination Clear":
+      - text: Destination
+      - searchbox "Destination": Las Vegas
+      - button "Clear"
+  - group:
+    - button "Check in Tue, 01/20/26"
+    - button "Check out Wed, 01/21/26"
+  - button "Guests and rooms 2 Guests, 1 Room"
+  - button "Search"
+  - button "Sort by Price only":
+    - strong: Sort by
+    - text: Price only
+  - button "Price Select":
+    - strong: Price
+    - text: Select
+  - button "Filters Select":
+    - strong: Filters
+    - text: Select
+  - button "Guest rating Select":
+    - strong: Guest rating
+    - text: Select
+  - button "Property type Select":
+    - strong: Property type
+    - text: Select
+  - button "Location Select":
+    - strong: Location
+    - text: Select
+  - list:
+    - listitem:
+      - img "Booking.com"
+    - listitem:
+      - img "Expedia"
+    - listitem:
+      - img "Hotels.com"
+    - listitem:
+      - img "Vrbo"
+    - listitem:
+      - img "Accor"
+    - listitem:
+      - img "Trip.com"
+    - listitem:
+      - img "Priceline"
+  - text: We found
+  - strong: "225"
+  - text: hotels from
+  - strong: "290"
+  - text: sites
+  - link "How payments to us affect ranking":
+    - /url: https://support.trivago.com/hc/en-us/sections/360000014707
+    - paragraph: How payments to us affect ranking
+  - list:
+    - listitem:
+      - article:
+        - button "Treasure Island - TI Las Vegas Hotel & Casino, a Radisson Hotel, (Las Vegas, USA) 1 / 75":
+          - img "Treasure Island - TI Las Vegas Hotel & Casino, a Radisson Hotel, (Las Vegas, USA)"
+          - text: 1 / 75
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Treasure Island - TI Las Vegas Hotel & Casino, a Radisson Hotel" [level=2]:
+          - button "Treasure Island - TI Las Vegas Hotel & Casino, a Radisson Hotel"
+        - button "Resort"
+        - button "Amazing Strip and Sphere Views, Convenient Access to Shopping"
+        - button "0.9 miles to Bellagio Fountains"
+        - button "8.2 Very good (124621 ratings)":
+          - text: "8.2"
+          - strong: Very good
+          - text: (124621 ratings)
+        - button "Our lowest price Prestigia Free cancellationbefore Jan 17 $337 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $337
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $347 Booking.com $347 Agoda
+    - listitem:
+      - article:
+        - button "Wynn Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "Wynn Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Wynn Las Vegas" [level=2]:
+          - button "Wynn Las Vegas"
+        - button "Resort"
+        - button "Spectacular Strip and Sphere Views, Designer Pools with Cabanas"
+        - button "1.1 miles to Bellagio Fountains"
+        - button "9.2 Excellent (101996 ratings)":
+          - text: "9.2"
+          - strong: Excellent
+          - text: (101996 ratings)
+        - button "trivago member price Our lowest price $581 Unlock":
+          - text: trivago member price Our lowest price $581
+          - button "Unlock"
+        - button "logo trivago Book & Go $613 View Deal Includes all fees (excludes taxes)":
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $613
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "Harrah's Las Vegas Hotel & Casino, (Las Vegas, USA) 1 / 99":
+          - img "Harrah's Las Vegas Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Harrah's Las Vegas Hotel & Casino" [level=2]:
+          - button "Harrah's Las Vegas Hotel & Casino"
+        - button "Resort"
+        - button "Relaxing Spa and Salon Services, Convenient Monorail Access"
+        - button "0.4 miles to Bellagio Fountains"
+        - button "7.8 Good (68319 ratings)":
+          - text: "7.8"
+          - strong: Good
+          - text: (68319 ratings)
+        - button "Our lowest price logo trivago Book & Go Free cancellation $474 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $474
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $496 Booking.com $496 Expedia
+    - listitem:
+      - article:
+        - button "Paris Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "Paris Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Paris Las Vegas" [level=2]:
+          - button "Paris Las Vegas"
+        - button "Resort"
+        - button "Half-Size Eiffel Tower Views, Rooftop Pool in French Garden"
+        - button "0.3 miles to Bellagio Fountains"
+        - button "8.1 Very good (157284 ratings)":
+          - text: "8.1"
+          - strong: Very good
+          - text: (157284 ratings)
+        - button "trivago member price Our lowest price $304 Unlock":
+          - text: trivago member price Our lowest price $304
+          - button "Unlock"
+        - button "PriceTravel Free cancellation Pay in installments $358 View Deal Includes all fees (excludes taxes)":
+          - text: PriceTravel
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $358
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "ARIA Resort & Casino, (Las Vegas, USA) 1 / 99":
+          - img "ARIA Resort & Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "ARIA Resort & Casino" [level=2]:
+          - button "ARIA Resort & Casino"
+        - button "Resort"
+        - button "Spectacular Views from Higher Floors, Refreshing Poolside Oasis"
+        - button "0.4 miles to Bellagio Fountains"
+        - button "8.7 Excellent (94719 ratings)":
+          - text: "8.7"
+          - strong: Excellent
+          - text: (94719 ratings)
+        - button "22% lower than popular sites Our lowest price Prestigia Free cancellationbefore Jan 17 $512 View Deal Includes all fees (excludes taxes)":
+          - button "22% lower than popular sites"
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $512
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $654 Agoda $654 Booking.com
+    - listitem:
+      - article:
+        - button "MGM Grand Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "MGM Grand Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "MGM Grand Las Vegas" [level=2]:
+          - button "MGM Grand Las Vegas"
+        - button "Resort"
+        - button "Multiple Pools and Lazy River, Proximity to Entertainment and Airport"
+        - button "0.8 miles to Bellagio Fountains"
+        - button "8.1 Very good (180797 ratings)":
+          - text: "8.1"
+          - strong: Very good
+          - text: (180797 ratings)
+        - button "Our lowest price PriceTravel Free cancellation Pay in installments $456 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price PriceTravel
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $456
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $456 eDreams
+    - listitem:
+      - article:
+        - button "Trump International Hotel Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "Trump International Hotel Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Trump International Hotel Las Vegas" [level=2]:
+          - button "Trump International Hotel Las Vegas"
+        - button "Serviced apartment"
+        - button "Heated Outdoor Pool with Cabanas, Marble Bathrooms with Whirlpool Tubs"
+        - button "1.2 miles to Bellagio Fountains"
+        - button "8.9 Excellent (42532 ratings)":
+          - text: "8.9"
+          - strong: Excellent
+          - text: (42532 ratings)
+        - button "trivago member price Our lowest price $379 Unlock":
+          - text: trivago member price Our lowest price $379
+          - button "Unlock"
+        - button "Prestigia $408 View Deal Includes all fees (excludes taxes)":
+          - text: Prestigia $408
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "Flamingo Las Vegas Hotel & Casino, (Las Vegas, USA) 1 / 99":
+          - img "Flamingo Las Vegas Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Flamingo Las Vegas Hotel & Casino" [level=2]:
+          - button "Flamingo Las Vegas Hotel & Casino"
+        - button "Resort"
+        - button "Sphere Views from Upgraded Rooms, Lagoon-Style Outdoor Pool Oasis"
+        - button "0.4 miles to Bellagio Fountains"
+        - button "7.4 (164077 ratings)"
+        - button "Our lowest price logo trivago Book & Go Free cancellation $287 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $287
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $299 Booking.com $299 Expedia
+    - listitem:
+      - article:
+        - button "Encore at Wynn Las Vegas, (Las Vegas, USA) 1 / 77":
+          - img "Encore at Wynn Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 77
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Encore at Wynn Las Vegas" [level=2]:
+          - button "Encore at Wynn Las Vegas"
+        - button "Resort"
+        - button "Glamorous Strip Views from Suites, Signature Restaurants and Nightclubs"
+        - button "1.3 miles to Bellagio Fountains"
+        - button "9.1 Excellent (46578 ratings)":
+          - text: "9.1"
+          - strong: Excellent
+          - text: (46578 ratings)
+        - button "38% lower than popular sites Our lowest price TravelUp $592 View Deal Includes all fees (excludes taxes)":
+          - button "38% lower than popular sites"
+          - text: Our lowest price TravelUp $592
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $954 Agoda $954 Booking.com
+    - article:
+      - heading "Find stays for two" [level=4]
+      - heading "Apply filters to see stays for a couples getaway" [level=5]
+      - button "previous" [disabled]
+      - button "Breakfast included"
+      - button "Free cancellation"
+      - button "Parking"
+      - button "Pool"
+      - button "Free WiFi"
+      - button "Pet-friendly"
+      - button "Spa"
+      - button "Air conditioning"
+      - button "Kitchen"
+      - button "next"
+    - listitem:
+      - article:
+        - button "Westgate Las Vegas Resort and Casino, (Las Vegas, USA) 1 / 99":
+          - img "Westgate Las Vegas Resort and Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Westgate Las Vegas Resort and Casino" [level=2]:
+          - button "Westgate Las Vegas Resort and Casino"
+        - button "Hotel"
+        - button "New Panorama Suites with Strip Views, Rooftop Pool and Poolside Bar"
+        - button "2.1 miles to Bellagio Fountains"
+        - button "7.8 Good (36558 ratings)":
+          - text: "7.8"
+          - strong: Good
+          - text: (36558 ratings)
+        - button "11% lower than other partners Our lowest price Prestigia Free cancellationbefore Jan 17 $675 View Deal Includes all fees (excludes taxes)":
+          - button "11% lower than other partners"
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $675
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $755 Agoda $755 Booking.com
+    - listitem:
+      - article:
+        - button "Luxor, (Las Vegas, USA) 1 / 85":
+          - img "Luxor, (Las Vegas, USA)"
+          - text: 1 / 85
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Luxor" [level=2]:
+          - button "Luxor"
+        - button "Resort"
+        - button "Multiple Outdoor Pools and Poolside Bar, Unique Pyramid Rooms and Suites"
+        - button "1.2 miles to Bellagio Fountains"
+        - button "7.6 Good (214749 ratings)":
+          - text: "7.6"
+          - strong: Good
+          - text: (214749 ratings)
+        - button "Prestigia Free cancellationbefore Jan 17 $195 View Deal Includes all fees (excludes taxes)":
+          - text: Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $195
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $175 Super.com $219 Booking.com
+    - listitem:
+      - article:
+        - button "Mandalay Bay Hotel & Casino, (Las Vegas, USA) 1 / 76":
+          - img "Mandalay Bay Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 76
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Mandalay Bay Hotel & Casino" [level=2]:
+          - button "Mandalay Bay Hotel & Casino"
+        - button "Resort"
+        - button "Exceptional pool and beach area, Upscale Shopping and Live Entertainment"
+        - button "1.5 miles to Bellagio Fountains"
+        - button "8.4 Very good (110575 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (110575 ratings)
+        - button "27% lower than popular sites Our lowest price Prestigia Free cancellationbefore Jan 17 $269 View Deal Includes all fees (excludes taxes)":
+          - button "27% lower than popular sites"
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $269
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $366 Booking.com $366 Agoda
+    - listitem:
+      - article:
+        - button "Bellagio, (Las Vegas, USA) 1 / 99":
+          - img "Bellagio, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Bellagio" [level=2]:
+          - button "Bellagio"
+        - button "Resort"
+        - button "Spectacular Fountain Views, Five Outdoor Pools and Lush Gardens"
+        - button "0.1 miles to Bellagio Fountains"
+        - button "8.9 Excellent (171780 ratings)":
+          - text: "8.9"
+          - strong: Excellent
+          - text: (171780 ratings)
+        - button "13% lower than popular sites Our lowest price Prestigia Free cancellationbefore Jan 17 $371 View Deal Includes all fees (excludes taxes)":
+          - button "13% lower than popular sites"
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $371
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $424 Hotels.com $424 Booking.com
+    - listitem:
+      - article:
+        - button "Park MGM Las Vegas, (Las Vegas, USA) 1 / 77":
+          - img "Park MGM Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 77
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Park MGM Las Vegas" [level=2]:
+          - button "Park MGM Las Vegas"
+        - button "Resort"
+        - button "Three Outdoor Pools with Cabanas, Multiple Restaurants and Bars"
+        - button "0.6 miles to Bellagio Fountains"
+        - button "8.3 Very good (58243 ratings)":
+          - text: "8.3"
+          - strong: Very good
+          - text: (58243 ratings)
+        - button "14% lower than popular sites Our lowest price Prestigia Free cancellationbefore Jan 17 $379 View Deal Includes all fees (excludes taxes)":
+          - button "14% lower than popular sites"
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $379
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $440 Agoda $440 Booking.com
+    - listitem:
+      - article:
+        - button "Rio Hotel & Casino, a Destination by Hyatt Hotel., (Las Vegas, USA) 1 / 99":
+          - img "Rio Hotel & Casino, a Destination by Hyatt Hotel., (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Rio Hotel & Casino, a Destination by Hyatt Hotel." [level=2]:
+          - button "Rio Hotel & Casino, a Destination by Hyatt Hotel."
+        - button "Resort"
+        - button "VooDoo Steak with Iconic Views, Pool Oasis with Whirlpools"
+        - button "0.6 miles to Bellagio Fountains"
+        - button "7.4 (88111 ratings)"
+        - button "56% lower than popular sites Our lowest price logo trivago Book & Go Free cancellation $97 View Deal Includes all fees (excludes taxes)":
+          - button "56% lower than popular sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $97
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $219 Booking.com $219 Expedia
+    - listitem:
+      - article:
+        - button "Excalibur, (Las Vegas, USA) 1 / 65":
+          - img "Excalibur, (Las Vegas, USA)"
+          - text: 1 / 65
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Excalibur" [level=2]:
+          - button "Excalibur"
+        - button "Resort"
+        - button "Four Seasonal Outdoor Pools, Camelot-themed Casino Resort"
+        - button "1.0 miles to Bellagio Fountains"
+        - button "7.8 Good (170478 ratings)":
+          - text: "7.8"
+          - strong: Good
+          - text: (170478 ratings)
+        - button "Our lowest price TravelUp $178 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price TravelUp $178
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $194 Booking.com $194 Expedia
+    - listitem:
+      - article:
+        - button "Planet Hollywood Resort & Casino, (Las Vegas, USA) 1 / 99":
+          - img "Planet Hollywood Resort & Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Planet Hollywood Resort & Casino" [level=2]:
+          - button "Planet Hollywood Resort & Casino"
+        - button "Resort"
+        - button "Views of the Sphere, Two Pools for Relaxation"
+        - button "0.4 miles to Bellagio Fountains"
+        - button "8.1 Very good (125605 ratings)":
+          - text: "8.1"
+          - strong: Very good
+          - text: (125605 ratings)
+        - button "PriceTravel Free cancellation Pay in installments $369 View Deal Includes all fees (excludes taxes)":
+          - text: PriceTravel
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $369
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices":
+          - text: $330
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $344 Booking.com
+    - listitem:
+      - article:
+        - button "The Cosmopolitan Of Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "The Cosmopolitan Of Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "The Cosmopolitan Of Las Vegas" [level=2]:
+          - button "The Cosmopolitan Of Las Vegas"
+        - button "Resort"
+        - button "Skyline Views from Private Terraces, Unique Pool District Experience"
+        - button "0.3 miles to Bellagio Fountains"
+        - button "8.9 Excellent (88141 ratings)":
+          - text: "8.9"
+          - strong: Excellent
+          - text: (88141 ratings)
+        - button "Our lowest price Prestigia Free cancellationbefore Jan 17 $660 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $660
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $705 Hotels.com $705 Expedia
+    - listitem:
+      - article:
+        - button "The STRAT Hotel, Casino & Tower, (Las Vegas, USA) 1 / 99":
+          - img "The STRAT Hotel, Casino & Tower, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "The STRAT Hotel, Casino & Tower" [level=2]:
+          - button "The STRAT Hotel, Casino & Tower"
+        - button "Resort"
+        - button "Tower Views and Thrill Rides, Multiple Pools and Poolside Bars"
+        - button "1.7 miles to Fremont Street Experience"
+        - button "7.7 Good (83822 ratings)":
+          - text: "7.7"
+          - strong: Good
+          - text: (83822 ratings)
+        - button "Our lowest price logo trivago Book & Go Free cancellation $147 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $147
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $160 Booking.com $166 Expedia
+    - listitem:
+      - article:
+        - button "Waldorf Astoria Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "Waldorf Astoria Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Waldorf Astoria Las Vegas" [level=2]:
+          - button "Waldorf Astoria Las Vegas"
+        - button "Resort"
+        - button "Spectacular Skyline Views, Eighth-Floor Pool Deck with Cabanas"
+        - button "0.5 miles to Bellagio Fountains"
+        - button "8.6 Excellent (4810 ratings)":
+          - text: "8.6"
+          - strong: Excellent
+          - text: (4810 ratings)
+        - button "29% lower than popular sites Our lowest price logo trivago Book & Go Free cancellation $468 View Deal Includes all fees (excludes taxes)":
+          - button "29% lower than popular sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $468
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $655 Waldorf Astroria $655 Agoda
+    - listitem:
+      - article:
+        - button "Virgin Hotels Las Vegas, Curio Collection By Hilton, (Las Vegas, USA) 1 / 99":
+          - img "Virgin Hotels Las Vegas, Curio Collection By Hilton, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Virgin Hotels Las Vegas, Curio Collection By Hilton" [level=2]:
+          - button "Virgin Hotels Las Vegas, Curio Collection By Hilton"
+        - button "Resort"
+        - button "Striking Sphere Views, Outdoor Pools and Poolside Bar"
+        - button "1.3 miles to Bellagio Fountains"
+        - button "8.4 Very good (17793 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (17793 ratings)
+        - button "Our lowest price Curio Collection Pay at the property $246 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Curio Collection
+          - list:
+            - listitem "Pay at the property":
+              - button "Pay at the property"
+          - text: $246
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $246 Booking.com $246 Expedia
+    - listitem:
+      - article:
+        - button "Palms Casino Resort, (Las Vegas, USA) 1 / 99":
+          - img "Palms Casino Resort, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Palms Casino Resort" [level=2]:
+          - button "Palms Casino Resort"
+        - button "Resort"
+        - button "Stylish Rooms with City Views, Premier Steakhouse with Kobe Beef"
+        - button "0.9 miles to Bellagio Fountains"
+        - button "8.4 Very good (36893 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (36893 ratings)
+        - button "Prestigia $251 View Deal Includes all fees (excludes taxes)":
+          - text: Prestigia $251
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices":
+          - text: $241
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $263 Booking.com
+    - listitem:
+      - article:
+        - button "Golden Nugget Hotel & Casino Las Vegas, (Las Vegas, USA) 1 / 75":
+          - img "Golden Nugget Hotel & Casino Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 75
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Golden Nugget Hotel & Casino Las Vegas" [level=2]:
+          - button "Golden Nugget Hotel & Casino Las Vegas"
+        - button "Resort"
+        - button "Shark Tank pool with waterslide, Luxurious Spa and Salon Services"
+        - button "0.0 miles to Fremont Street Experience"
+        - button "8.2 Very good (81786 ratings)":
+          - text: "8.2"
+          - strong: Very good
+          - text: (81786 ratings)
+        - button "24% lower than popular sites Our lowest price logo trivago Book & Go Free cancellation $133 View Deal Includes all fees (excludes taxes)":
+          - button "24% lower than popular sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $133
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $175 Booking.com $175 Expedia
+    - listitem:
+      - article:
+        - button "The Venetian Resort Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "The Venetian Resort Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "The Venetian Resort Las Vegas" [level=2]:
+          - button "The Venetian Resort Las Vegas"
+        - button "Hotel"
+        - button "Four Outdoor Pools and Spa, Acclaimed Chef-Run Restaurants"
+        - button "0.8 miles to Bellagio Fountains"
+        - button "9.0 Excellent (184038 ratings)":
+          - text: "9.0"
+          - strong: Excellent
+          - text: (184038 ratings)
+        - button "Our lowest price Prestigia Free cancellationbefore Jan 17 $1,217 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $1,217
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $1,254 Booking.com $1,254 Hotels.com
+    - listitem:
+      - article:
+        - button "Orleans Hotel and Casino, (Las Vegas, USA) 1 / 71":
+          - img "Orleans Hotel and Casino, (Las Vegas, USA)"
+          - text: 1 / 71
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Orleans Hotel and Casino" [level=2]:
+          - button "Orleans Hotel and Casino"
+        - button "Resort"
+        - button "Relaxing Spa and Salon Services, Family-Friendly Entertainment Options"
+        - button "1.5 miles to Bellagio Fountains"
+        - button "8.4 Very good (46301 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (46301 ratings)
+        - button "logo trivago Book & Go Free cancellation $169 View Deal Includes all fees (excludes taxes)":
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $169
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $120 Trip.com $225 Expedia
+    - listitem:
+      - article:
+        - button "Circa Resort & Casino - Adults Only, (Las Vegas, USA) 1 / 56":
+          - img "Circa Resort & Casino - Adults Only, (Las Vegas, USA)"
+          - text: 1 / 56
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Circa Resort & Casino - Adults Only" [level=2]:
+          - button "Circa Resort & Casino - Adults Only"
+        - button "Hotel"
+        - button "Six-Tiered Poolside Oasis, Relaxing Hot Tub and Massage"
+        - button "4.4 miles to City center"
+        - button "8.8 Excellent (19868 ratings)":
+          - text: "8.8"
+          - strong: Excellent
+          - text: (19868 ratings)
+        - button "13% lower than popular sites Our lowest price Prestigia Free cancellationbefore Jan 17 $278 View Deal Includes all fees (excludes taxes)":
+          - button "13% lower than popular sites"
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $278
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $319 Booking.com $319 Expedia
+    - listitem:
+      - article:
+        - button "Caesars Palace Las Vegas, (Las Vegas, USA) 1 / 99":
+          - img "Caesars Palace Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Caesars Palace Las Vegas" [level=2]:
+          - button "Caesars Palace Las Vegas"
+        - button "Hotel"
+        - button "Garden of the Gods Pool Oasis, Luxurious Bath Products"
+        - button "0.5 miles to Bellagio Fountains"
+        - button "8.4 Very good (184049 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (184049 ratings)
+        - button "PriceTravel Free cancellation Pay in installments $350 View Deal Includes all fees (excludes taxes)":
+          - text: PriceTravel
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $350
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $289 Prestigia $302 Booking.com
+    - listitem:
+      - article:
+        - button "Sunset Station Hotel & Casino, (Las Vegas, USA) 1 / 99":
+          - img "Sunset Station Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Sunset Station Hotel & Casino" [level=2]:
+          - button "Sunset Station Hotel & Casino"
+        - button "Hotel"
+        - button "Beautiful pool and outdoor space, Family-Friendly Attractions"
+        - button "8.3 miles to City center"
+        - button "8.5 Excellent (25058 ratings)":
+          - text: "8.5"
+          - strong: Excellent
+          - text: (25058 ratings)
+        - button "30% Less than usual logo trivago Book & Go $101 View Deal Includes all fees (excludes taxes)":
+          - button "30% Less than usual"
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $101
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $92 sembo $139 Booking.com
+    - listitem:
+      - article:
+        - button "Hotel Main Street Station Casino Brewery, (Las Vegas, USA) 1 / 50":
+          - img "Hotel Main Street Station Casino Brewery, (Las Vegas, USA)"
+          - text: 1 / 50
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Hotel Main Street Station Casino Brewery" [level=2]:
+          - button "Hotel Main Street Station Casino Brewery"
+        - button "Hotel"
+        - button "Slab of the Berlin Wall on display, Seasonal rooftop pool access"
+        - button "0.2 miles to Fremont Street Experience"
+        - button "8.4 Very good (7389 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (7389 ratings)
+        - button "27% lower than popular sites Our lowest price logo trivago Book & Go Free cancellation $60 View Deal Includes all fees (excludes taxes)":
+          - button "27% lower than popular sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $60
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $82 Expedia $82 Hotels.com
+    - listitem:
+      - article:
+        - button "Gold Coast Hotel and Casino, (Las Vegas, USA) 1 / 54":
+          - img "Gold Coast Hotel and Casino, (Las Vegas, USA)"
+          - text: 1 / 54
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Gold Coast Hotel and Casino" [level=2]:
+          - button "Gold Coast Hotel and Casino"
+        - button "Resort"
+        - button "Classic Casino with Low Minimums, Bowling Alley for Added Entertainment"
+        - button "0.9 miles to Bellagio Fountains"
+        - button "8.0 Very good (17705 ratings)":
+          - text: "8.0"
+          - strong: Very good
+          - text: (17705 ratings)
+        - button "44% lower than popular sites Our lowest price logo trivago Book & Go $110 View Deal Includes all fees (excludes taxes)":
+          - button "44% lower than popular sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $110
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $197 Expedia $197 Hotels.com
+    - listitem:
+      - article:
+        - button "The Cliffs at Peace Canyon, (Las Vegas, USA) 1 / 37":
+          - img "The Cliffs at Peace Canyon, (Las Vegas, USA)"
+          - text: 1 / 37
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "The Cliffs at Peace Canyon" [level=2]:
+          - button "The Cliffs at Peace Canyon"
+        - button "Resort"
+        - button "Refreshing pool and hot tub open late, Peaceful retreat away from chaos"
+        - button "7.2 miles to Bellagio Fountains"
+        - button "8.8 Excellent (3308 ratings)":
+          - text: "8.8"
+          - strong: Excellent
+          - text: (3308 ratings)
+        - button "logo trivago Book & Go $473 View Deal Includes all fees (excludes taxes)":
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $473
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $436 Super.com $473 roomsXXL
+    - listitem:
+      - article:
+        - button "New York-New York, (Las Vegas, USA) 1 / 73":
+          - img "New York-New York, (Las Vegas, USA)"
+          - text: 1 / 73
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "New York-New York" [level=2]:
+          - button "New York-New York"
+        - button "Resort"
+        - button "Refreshing Outdoor Pool and Cabanas, Multiple Restaurants and Bars"
+        - button "0.7 miles to Bellagio Fountains"
+        - button "8.4 Very good (126623 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (126623 ratings)
+        - button "Our lowest price Prestigia Free cancellationbefore Jan 17 $224 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $224
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $234 Booking.com $234 Expedia
+    - listitem:
+      - article:
+        - button "The LINQ Hotel and Casino, (Las Vegas, USA) 1 / 89":
+          - img "The LINQ Hotel and Casino, (Las Vegas, USA)"
+          - text: 1 / 89
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "The LINQ Hotel and Casino" [level=2]:
+          - button "The LINQ Hotel and Casino"
+        - button "Resort"
+        - button "High Roller Observation Wheel Views, Proximity to Public Transportation"
+        - button "0.8 miles to Bellagio Fountains"
+        - button "7.8 Good (91339 ratings)":
+          - text: "7.8"
+          - strong: Good
+          - text: (91339 ratings)
+        - button "PriceTravel Free cancellation Pay in installments $576 View Deal Prices include all taxes and fees.":
+          - text: PriceTravel
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $576
+          - button "View Deal"
+          - paragraph: Prices include all taxes and fees.
+        - button "Show all prices": $465 Prestigia $479 Booking.com
+    - listitem:
+      - article:
+        - button "Luxury Suites International at The Signature, (Las Vegas, USA) 1 / 66":
+          - img "Luxury Suites International at The Signature, (Las Vegas, USA)"
+          - text: 1 / 66
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Luxury Suites International at The Signature" [level=2]:
+          - button "Luxury Suites International at The Signature"
+        - button "Serviced apartment"
+        - button "Sphere View from Select Rooms, Three Heated Outdoor Pools"
+        - button "0.5 miles to City center"
+        - button "8.0 Very good (5589 ratings)":
+          - text: "8.0"
+          - strong: Very good
+          - text: (5589 ratings)
+        - button "54% lower than other partners Our lowest price Super.com $205 View Deal Includes all fees (excludes taxes)":
+          - button "54% lower than other partners"
+          - text: Our lowest price Super.com $205
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $450 Stayforlong $586 Expedia
+    - listitem:
+      - article:
+        - button "NoMad Las Vegas, (Las Vegas, USA) 1 / 66":
+          - img "NoMad Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 66
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "NoMad Las Vegas" [level=2]:
+          - button "NoMad Las Vegas"
+        - button "Hotel"
+        - button "Outdoor Pool and Poolside Bar, Stylish Rooms with Unique Decor"
+        - button "0.6 miles to City center"
+        - button "9.1 Excellent (4163 ratings)":
+          - text: "9.1"
+          - strong: Excellent
+          - text: (4163 ratings)
+        - button "Our lowest price Prestigia Free cancellationbefore Jan 17 $588 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Prestigia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $588
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $639 Agoda $639 Booking.com
+  - navigation "wrapper":
+    - list:
+      - listitem:
+        - button "1"
+      - listitem:
+        - button "2"
+      - listitem:
+        - button "3"
+      - listitem:
+        - button "4"
+      - listitem:
+        - text: ...
+        - button "7"
+      - listitem:
+        - button "next"
+    - button
+  - paragraph: The prices and availability we receive from booking sites change constantly. This means you may not always find the exact same offer you saw on trivago when you land on the booking site.
+  - img
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/trivagoUS
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/trivago
+    - listitem:
+      - link "Instagram":
+        - /url: https://instagram.com/trivago/
+    - listitem:
+      - link "Youtube":
+        - /url: https://www.youtube.com/user/trivago
+    - listitem:
+      - link "Linkedin":
+        - /url: https://www.linkedin.com/company/trivagonv/
+  - combobox "Choose your country":
+    - option "Arab World (العالم العربي)"
+    - option "Argentina"
+    - option "Australia"
+    - option "Austria (Österreich)"
+    - option "Belgium (België)"
+    - option "Brazil (Brasil)"
+    - option "Bulgaria (България)"
+    - option "Canada"
+    - option "Chile"
+    - option "Colombia"
+    - option "Croatia (Hrvatska)"
+    - option "Czechia (Česko)"
+    - option "Denmark (Danmark)"
+    - option "Ecuador"
+    - option "Finland (Suomi)"
+    - option "France"
+    - option "Germany (Deutschland)"
+    - option "Greece (Ελλάδα)"
+    - option "Hong Kong (香港)"
+    - option "Hungary (Magyarország)"
+    - option "India"
+    - option "Indonesia"
+    - option "Ireland"
+    - option "Israel (ישראל)"
+    - option "Italy (Italia)"
+    - option "Japan (日本)"
+    - option "Korea (한국)"
+    - option "Malaysia"
+    - option "Mexico (México)"
+    - option "Netherlands (Nederland)"
+    - option "New Zealand"
+    - option "Norway (Norge)"
+    - option "Peru (Perú)"
+    - option "Philippines (Pilipinas)"
+    - option "Poland (Polska)"
+    - option "Portugal"
+    - option "Romania (România)"
+    - option "Serbia (Srbija)"
+    - option "Singapore"
+    - option "Slovakia (Slovensko)"
+    - option "Slovenia (Slovenija)"
+    - option "South Africa"
+    - option "Spain (España)"
+    - option "Sweden (Sverige)"
+    - option "Switzerland (Schweiz)"
+    - option "Taiwan (台灣)"
+    - option "Thailand (ประเทศไทย)"
+    - option "Turkey (Türkiye)"
+    - option "UAE"
+    - option "United Kingdom"
+    - option "Uruguay"
+    - option "USA" [selected]
+    - option "Vietnam (Việt Nam)"
+  - list:
+    - listitem:
+      - link "Company":
+        - /url: https://company.trivago.com/
+    - listitem:
+      - link "Jobs":
+        - /url: https://company.trivago.com/open-positions/?gh_src=21d449cf2
+    - listitem:
+      - link "Press":
+        - /url: https://company.trivago.com/press/
+    - listitem:
+      - link "Investor relations":
+        - /url: https://ir.trivago.com/
+  - list:
+    - listitem:
+      - link "Mobile apps - searching on the go":
+        - /url: https://www.trivago.com/en-US/app
+    - listitem:
+      - link "trivago for hoteliers":
+        - /url: https://studio.trivago.com/home
+    - listitem:
+      - link "Affiliate":
+        - /url: https://www.travelpayouts.com/en/offers/trivago-affiliate-program
+  - list:
+    - listitem:
+      - link "Help":
+        - /url: https://support.trivago.com/hc/en-us
+    - listitem:
+      - link "Learn how trivago works":
+        - /url: https://support.trivago.com/hc/en-us/sections/360000014707
+    - listitem:
+      - link "Terms and conditions":
+        - /url: https://www.trivago.com/en-US/st/terms-of-service
+    - listitem:
+      - link "Legal information":
+        - /url: https://www.trivago.com/en-US/sl/legal-information
+    - listitem:
+      - button "Do not sell my personal information"
+    - listitem:
+      - link "Privacy notice":
+        - /url: https://www.trivago.com/en-US/sp/privacy-policy
+    - listitem:
+      - link "DSA information":
+        - /url: https://company.trivago.com/dsa-information/
+    - listitem:
+      - link "Cybersecurity":
+        - /url: https://www.trivago.com/en-US/scs/cyber-security
+    - listitem:
+      - link "Vulnerability Disclosure Program":
+        - /url: https://vdp.trivago.com
+  - heading "Get exclusive inspiration for your next stay – subscribe to our newsletter." [level=2]
+  - textbox "Email address"
+  - text: Email address
+  - button "Subscribe"
+  - paragraph:
+    - strong: trivago N.V.
+    - text: ", Kesselstraße 5 – 7, 40221 Düsseldorf, Germany"
+  - paragraph: Copyright 2025 trivago | All rights reserved.
+  - text: Map loading
+  - button "Expand map"
+  - button
+  - region "Map"
+  - button "$337":
+    - strong: $337
+  - button "$474":
+    - strong: $474
+  - button "$358":
+    - strong: $358
+  - button "$512":
+    - strong: $512
+  - button "$456":
+    - strong: $456
+  - button "$287":
+    - strong: $287
+  - button "$675":
+    - strong: $675
+  - button "$195":
+    - strong: $195
+  - button "$269":
+    - strong: $269
+  - button "$371":
+    - strong: $371
+  - button "$379":
+    - strong: $379
+  - button "$97":
+    - strong: $97
+  - button "$178":
+    - strong: $178
+  - button "$369":
+    - strong: $369
+  - button "$660":
+    - strong: $660
+  - button "$246":
+    - strong: $246
+  - button "$147":
+    - strong: $147
+  - button "$468":
+    - strong: $468
+  - button "$133":
+    - strong: $133
+  - button "$169":
+    - strong: $169
+  - button "$1,217":
+    - strong: $1,217
+  - button "$278":
+    - strong: $278
+  - button "$350":
+    - strong: $350
+  - button "$101":
+    - strong: $101
+  - button "$60":
+    - strong: $60
+  - button "$110":
+    - strong: $110
+  - button "$473":
+    - strong: $473
+  - button "$224":
+    - strong: $224
+  - button "$576":
+    - strong: $576
+  - button "$205":
+    - strong: $205
+  - button "$588":
+    - strong: $588
+  - button "$613":
+    - strong: $613
+  - button "$408":
+    - strong: $408
+  - button "$592":
+    - strong: $592
+  - button "$251":
+    - strong: $251
+- alert: Las Vegas Hotels | Find and compare great deals on trivago
+- button "Open Privacy Settings"
+- dialog:
+  - text: Let’s talk cookies! We, along with our trusted partners, use cookies and similar tech for site functionality, analytics and personalised advertising both on and off trivago. Click on “OK” to consent and continue enjoying trivago. Manage your data in your cookie settings. You can find more information in our
+  - link "privacy policy":
+    - /url: https://www.trivago.in/en-IN/sp/privacy-policy
+  - text: .
+  - button "Settings"
+  - button "OK"
+```

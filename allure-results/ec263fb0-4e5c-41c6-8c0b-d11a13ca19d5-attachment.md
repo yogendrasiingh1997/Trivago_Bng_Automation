@@ -1,0 +1,1671 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "trivago logo":
+    - /url: /en-US
+    - img
+  - navigation:
+    - list:
+      - listitem:
+        - button "Recently viewed"
+      - listitem:
+        - link "Favorites":
+          - /url: /en-US/profile/favorites/
+      - listitem:
+        - button "EN · $"
+      - listitem:
+        - button "Log in"
+      - listitem:
+        - button "Menu"
+- main:
+  - combobox:
+    - button "Destination Clear":
+      - text: Destination
+      - searchbox "Destination": Las Vegas
+      - button "Clear"
+  - group:
+    - button "Check in Tue, 01/20/26"
+    - button "Check out Wed, 01/21/26"
+  - button "Guests and rooms 2 Guests, 1 Room"
+  - button "Search"
+  - button "Sort by Price only":
+    - strong: Sort by
+    - text: Price only
+  - button "Filters Select":
+    - strong: Filters
+    - text: Select
+  - button "Price Select":
+    - strong: Price
+    - text: Select
+  - button "Location Select":
+    - strong: Location
+    - text: Select
+  - list:
+    - listitem:
+      - checkbox "Hotels"
+      - text: Hotels
+    - listitem:
+      - 'checkbox "Rating: 8.0+"'
+      - text: "Rating: 8.0+"
+    - listitem:
+      - checkbox "Near city center"
+      - text: Near city center
+    - listitem:
+      - checkbox "Breakfast included"
+      - text: Breakfast included
+    - listitem:
+      - checkbox "Free cancellation"
+      - text: Free cancellation
+    - listitem:
+      - checkbox "Free WiFi"
+      - text: Free WiFi
+    - listitem:
+      - checkbox "Parking"
+      - text: Parking
+    - listitem:
+      - checkbox "Restaurant"
+      - text: Restaurant
+    - listitem:
+      - checkbox "Pet-friendly"
+      - text: Pet-friendly
+  - button "next"
+  - paragraph: Deals mode
+  - switch
+  - button
+  - text: We found
+  - strong: "209"
+  - text: hotels from
+  - strong: "289"
+  - text: sites
+  - link "How payments to us affect ranking":
+    - /url: https://support.trivago.com/hc/en-us/sections/360000014707
+    - paragraph: How payments to us affect ranking
+  - list:
+    - listitem:
+      - article:
+        - button "Silver Sevens Hotel & Casino, (Las Vegas, USA) 1 / 39":
+          - img "Silver Sevens Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 39
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Silver Sevens Hotel & Casino" [level=2]:
+          - button "Silver Sevens Hotel & Casino"
+        - button "Hotel"
+        - button "Palm-Lined Outdoor Pool Oasis, Vibrant Casino Action and Entertainment"
+        - button "1.4 miles to Bellagio Fountains"
+        - button "6.9 (17832 ratings)"
+        - button "47% Lower than predicted Our lowest price Agoda $43 View Deal Includes all fees (excludes taxes)":
+          - button "47% Lower than predicted"
+          - text: Our lowest price Agoda $43
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $88 Expedia $88 Hotels.com
+      - button "Share"
+      - tablist:
+        - tab "Prices" [selected]
+        - tab "Reviews":
+          - text: Reviews
+          - superscript
+        - tab "Info"
+      - button "Close"
+      - tabpanel "Prices":
+        - list:
+          - option "Free cancellation":
+            - checkbox "Free cancellation"
+            - text: Free cancellation
+          - option "Pay at the property":
+            - checkbox "Pay at the property"
+            - text: Pay at the property
+        - list:
+          - listitem:
+            - img "Agoda"
+            - text: Agoda •Featured Our lowest price
+            - paragraph: deluxe king
+            - text: $43
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 3 more prices from Agoda":
+              - paragraph:
+                - text: Show
+                - strong: 3 more prices
+                - text: from Agoda
+          - listitem:
+            - img "Expedia"
+            - text: Expedia
+            - paragraph: deluxe king
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 19"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $88
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Expedia":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Expedia
+          - listitem:
+            - img "Hotels.com"
+            - text: Hotels.com
+            - paragraph: deluxe double queen
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 19"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $88
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Hotels.com":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Hotels.com
+          - listitem:
+            - img "Stayforlong"
+            - text: Stayforlong
+            - paragraph: deluxe 2 double beds - free cancellation - room only
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+            - text: $88
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 4 more prices from Stayforlong":
+              - paragraph:
+                - text: Show
+                - strong: 4 more prices
+                - text: from Stayforlong
+          - listitem:
+            - img "roomsXXL"
+            - text: roomsXXL
+            - paragraph: room only double room deluxe - king size bed
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $88
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from roomsXXL":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from roomsXXL
+          - listitem:
+            - img "eDreams"
+            - text: eDreams
+            - paragraph: deluxe king
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 19"
+            - text: $88
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from eDreams":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from eDreams
+          - listitem:
+            - img "Booking.com"
+            - text: Booking.com
+            - paragraph: deluxe double queen - free wifi
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 18"
+            - text: $100
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Booking.com":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Booking.com
+          - listitem:
+            - img "ZenHotels.com"
+            - text: ZenHotels.com
+            - paragraph: deluxe room
+            - text: $95
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 3 more prices from ZenHotels.com":
+              - paragraph:
+                - text: Show
+                - strong: 3 more prices
+                - text: from ZenHotels.com
+          - listitem:
+            - img "Prestigia"
+            - text: Prestigia
+            - paragraph: double deluxe king bed
+            - text: $108
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 4 more prices from Prestigia":
+              - paragraph:
+                - text: Show
+                - strong: 4 more prices
+                - text: from Prestigia
+        - button "Show fewer prices"
+      - button "Share"
+      - button "Close"
+    - listitem:
+      - article:
+        - button "Oasis at Gold Spike - Adults Only, (Las Vegas, USA) 1 / 70":
+          - img "Oasis at Gold Spike - Adults Only, (Las Vegas, USA)"
+          - text: 1 / 70
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Oasis at Gold Spike - Adults Only" [level=2]:
+          - button "Oasis at Gold Spike - Adults Only"
+        - button "Hotel"
+        - button "Adults-Only Poolside Relaxation, Unique Outdoor Game Area"
+        - button "0.2 miles to Fremont Street Experience"
+        - button "7.4 (9483 ratings)"
+        - button "trivago member price Our lowest price $50 Unlock":
+          - text: trivago member price Our lowest price $50
+          - button "Unlock"
+        - button "Hotel Site Hotel Site Free cancellation $54 View Deal Includes all fees (excludes taxes)":
+          - img "Hotel Site"
+          - text: Hotel Site
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $54
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "Ellis Island Hotel Casino & Brewery, (Las Vegas, USA) 1 / 99":
+          - img "Ellis Island Hotel Casino & Brewery, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Ellis Island Hotel Casino & Brewery" [level=2]:
+          - button "Ellis Island Hotel Casino & Brewery"
+        - button "Hotel"
+        - button "Refreshing pool and hot tub, Classic Vegas hotel experience"
+        - button "0.5 miles to City center"
+        - button "7.9 Good (19101 ratings)":
+          - text: "7.9"
+          - strong: Good
+          - text: (19101 ratings)
+        - button "58% Lower than predicted Our lowest price Expedia $56 View Deal Includes all fees (excludes taxes)":
+          - button "58% Lower than predicted"
+          - text: Our lowest price Expedia $56
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $61 Booking.com $56 Hotels.com
+      - button "Share"
+      - tablist:
+        - tab "Prices" [selected]
+        - tab "Reviews":
+          - text: Reviews
+          - superscript
+        - tab "Info"
+      - button "Close"
+      - tabpanel "Prices":
+        - list:
+          - option "Free cancellation":
+            - checkbox "Free cancellation"
+            - text: Free cancellation
+          - option "Pay at the property":
+            - checkbox "Pay at the property"
+            - text: Pay at the property
+        - list:
+          - listitem:
+            - img "Expedia"
+            - text: Expedia •Featured Our lowest price
+            - paragraph: standard room, 1 king bed, accessible
+            - text: $56
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Expedia":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Expedia
+          - listitem:
+            - img "Booking.com"
+            - text: Booking.com
+            - paragraph: deluxe king room - non-smoking - free wifi
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 17"
+            - text: $61
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Booking.com":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Booking.com
+          - listitem:
+            - img "Hotels.com"
+            - text: Hotels.com
+            - paragraph: standard room, 1 king bed, accessible
+            - text: $56
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Hotels.com":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Hotels.com
+          - listitem:
+            - img "Stayforlong"
+            - text: Stayforlong
+            - paragraph: deluxe king bed - room only
+            - text: $56
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Stayforlong":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Stayforlong
+          - listitem:
+            - img "roomsXXL"
+            - text: roomsXXL
+            - paragraph: room only double room deluxe - king size bed
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $57
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from roomsXXL":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from roomsXXL
+          - listitem:
+            - img "eDreams"
+            - text: eDreams
+            - paragraph: deluxe room, 1 king bed
+            - text: $56
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from eDreams":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from eDreams
+          - listitem:
+            - img "ZenHotels.com"
+            - text: ZenHotels.com
+            - paragraph: quadruple room
+            - text: $66
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 2 more prices from ZenHotels.com":
+              - paragraph:
+                - text: Show
+                - strong: 2 more prices
+                - text: from ZenHotels.com
+        - button "Show fewer prices"
+      - button "Share"
+      - button "Close"
+    - listitem:
+      - article:
+        - button "Mardi Gras Hotel & Casino, (Las Vegas, USA) 1 / 56":
+          - img "Mardi Gras Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 56
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Mardi Gras Hotel & Casino" [level=2]:
+          - button "Mardi Gras Hotel & Casino"
+        - button "Hotel"
+        - button "Refreshing pool and hot tub area, Affordable Restaurant and Bar"
+        - button "1.5 miles to Bellagio Fountains"
+        - button "6.8 (17426 ratings)"
+        - button "22% lower than other sites Our lowest price logo trivago Book & Go Free cancellation $58 View Deal Includes all fees (excludes taxes)":
+          - button "22% lower than other sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $58
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $74 Booking.com $74 Expedia
+      - button "Share"
+      - tablist:
+        - tab "Prices" [selected]
+        - tab "Reviews":
+          - text: Reviews
+          - superscript
+        - tab "Info"
+      - button "Close"
+      - tabpanel "Prices":
+        - list:
+          - option "Free cancellation":
+            - checkbox "Free cancellation"
+            - text: Free cancellation
+          - option "Pay at the property":
+            - checkbox "Pay at the property"
+            - text: Pay at the property
+        - list:
+          - listitem:
+            - img "logo"
+            - paragraph: trivago Book & Go
+            - text: •Featured Our lowest price
+            - paragraph: standard room
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+            - text: $58
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+          - listitem:
+            - img "Booking.com"
+            - text: Booking.com
+            - paragraph: standard queen room - non smoking - free wifi
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 19"
+            - text: $74
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Booking.com":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Booking.com
+          - listitem:
+            - img "Expedia"
+            - text: Expedia
+            - paragraph: standard room, 1 queen bed, non smoking
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 20"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $74
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Expedia":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Expedia
+          - listitem:
+            - img "Hotels.com"
+            - text: Hotels.com
+            - paragraph: standard room, 1 queen bed, non smoking
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 20"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $74
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Hotels.com":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Hotels.com
+          - listitem:
+            - img "roomsXXL"
+            - text: roomsXXL
+            - paragraph: room only double room - queen size bed
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $74
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from roomsXXL":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from roomsXXL
+          - listitem:
+            - img "eDreams"
+            - text: eDreams
+            - paragraph: standard room, 1 queen bed, non smoking
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellationbefore Jan 20"
+              - listitem "Pay at the property":
+                - button "Pay at the property"
+            - text: $74
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from eDreams":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from eDreams
+          - listitem:
+            - img "Stayforlong"
+            - text: Stayforlong
+            - paragraph: double or twin bed - free cancellation - room only
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+            - text: $75
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Stayforlong":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Stayforlong
+          - listitem:
+            - img "Agoda"
+            - text: Agoda
+            - paragraph: 1 queen bed non smoking
+            - list:
+              - listitem "Free cancellation":
+                - button "Free cancellation"
+            - text: $86
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 5 more prices from Agoda":
+              - paragraph:
+                - text: Show
+                - strong: 5 more prices
+                - text: from Agoda
+          - listitem:
+            - img "ZenHotels.com"
+            - text: ZenHotels.com
+            - paragraph: standard double room (full double bed) (queen size bed)
+            - text: $83
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+            - button "Show 4 more prices from ZenHotels.com":
+              - paragraph:
+                - text: Show
+                - strong: 4 more prices
+                - text: from ZenHotels.com
+          - listitem:
+            - img "TravelUp"
+            - text: TravelUp
+            - paragraph: room - room only
+            - text: $102
+            - paragraph: Includes all fees (excludes taxes)
+            - button "Visit site"
+        - button "Show fewer prices"
+      - button "Share"
+      - button "Close"
+    - listitem:
+      - article:
+        - button "Howard Johnson by Wyndham Las Vegas near the Strip, (Las Vegas, USA) 1 / 68":
+          - img "Howard Johnson by Wyndham Las Vegas near the Strip, (Las Vegas, USA)"
+          - text: 1 / 68
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Howard Johnson by Wyndham Las Vegas near the Strip" [level=2]:
+          - button "Howard Johnson by Wyndham Las Vegas near the Strip"
+        - button "Motel"
+        - button "Seasonal Outdoor Heated Pool, Pet-Friendly Accommodations"
+        - button "1.1 miles to Bellagio Fountains"
+        - button "5.3 (11182 ratings)"
+        - button "trivago member price Our lowest price $49 Unlock":
+          - text: trivago member price Our lowest price $49
+          - button "Unlock"
+        - button "Expedia Free cancellationbefore Jan 21 $59 View Deal Includes all fees (excludes taxes)":
+          - text: Expedia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 21"
+          - text: $59
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "Downtowner Boutique Hotel, (Las Vegas, USA) 1 / 46":
+          - img "Downtowner Boutique Hotel, (Las Vegas, USA)"
+          - text: 1 / 46
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Downtowner Boutique Hotel" [level=2]:
+          - button "Downtowner Boutique Hotel"
+        - button "Hotel"
+        - button "Outdoor Pool and Sun Deck Oasis, Unique Mini Golf Experience"
+        - button "0.4 miles to Fremont Street Experience"
+        - button "7.4 (8958 ratings)"
+        - button "Booking.com Free cancellationbefore Jan 18 $59 View Deal Includes all fees (excludes taxes)":
+          - text: Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 18"
+          - text: $59
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices":
+          - text: $51
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $58 Expedia
+    - listitem:
+      - article:
+        - button "Hotel Main Street Station Casino Brewery, (Las Vegas, USA) 1 / 50":
+          - img "Hotel Main Street Station Casino Brewery, (Las Vegas, USA)"
+          - text: 1 / 50
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Hotel Main Street Station Casino Brewery" [level=2]:
+          - button "Hotel Main Street Station Casino Brewery"
+        - button "Hotel"
+        - button "Slab of the Berlin Wall on display, Seasonal rooftop pool access"
+        - button "0.2 miles to Fremont Street Experience"
+        - button "8.4 Very good (7389 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (7389 ratings)
+        - button "52% Lower than predicted Our lowest price logo trivago Book & Go Free cancellation $60 View Deal Includes all fees (excludes taxes)":
+          - button "52% Lower than predicted"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $60
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $82 Expedia $82 Hotels.com
+    - listitem:
+      - article:
+        - button "Thunderbird Boutique Hotel, (Las Vegas, USA) 1 / 83":
+          - img "Thunderbird Boutique Hotel, (Las Vegas, USA)"
+          - text: 1 / 83
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Thunderbird Boutique Hotel" [level=2]:
+          - button "Thunderbird Boutique Hotel"
+        - button "Hotel"
+        - button "Functional Pool for Hot Weather, Vintage Vegas Charm and History"
+        - button "1.2 miles to Fremont Street Experience"
+        - button "7.0 (3951 ratings)"
+        - button "Booking.com Free cancellationbefore Jan 19 Pay at the property $66 View Deal Includes all fees (excludes taxes)":
+          - text: Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 19"
+            - listitem "Pay at the property":
+              - button "Pay at the property"
+          - text: $66
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $61 Expedia $61 Hotels.com
+    - listitem:
+      - article:
+        - button "Sin City Hostel, (Las Vegas, USA) 1 / 44":
+          - img "Sin City Hostel, (Las Vegas, USA)"
+          - text: 1 / 44
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Sin City Hostel" [level=2]:
+          - button "Sin City Hostel"
+        - button "Hostel"
+        - button "Communal Terrace and Garden Retreat, Social Atmosphere with Karaoke Nights"
+        - button "1.0 miles to Fremont Street Experience"
+        - button "7.9 Good (1001 ratings)":
+          - text: "7.9"
+          - strong: Good
+          - text: (1001 ratings)
+        - button "52% Lower than predicted Our lowest price Hotel Site Hotel Site Pay in installments $66 View Deal Includes all fees (excludes taxes)":
+          - button "52% Lower than predicted"
+          - text: Our lowest price
+          - img "Hotel Site"
+          - text: Hotel Site
+          - list:
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $66
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - article:
+      - heading "Find stays for two" [level=4]
+      - heading "Apply filters to see stays for a couples getaway" [level=5]
+      - button "previous" [disabled]
+      - button "Breakfast included"
+      - button "Free cancellation"
+      - button "Parking"
+      - button "Pool"
+      - button "Free WiFi"
+      - button "Pet-friendly"
+      - button "Spa"
+      - button "Air conditioning"
+      - button "Kitchen"
+      - button "next"
+    - listitem:
+      - article:
+        - button "El Cortez Hotel & Casino - 21 and over only, (Las Vegas, USA) 1 / 92":
+          - img "El Cortez Hotel & Casino - 21 and over only, (Las Vegas, USA)"
+          - text: 1 / 92
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "El Cortez Hotel & Casino - 21 and over only" [level=2]:
+          - button "El Cortez Hotel & Casino - 21 and over only"
+        - button "Hotel"
+        - button "Salon and Fitness Center Access, Sportsbook Area with a Casual Vibe"
+        - button "0.3 miles to Fremont Street Experience"
+        - button "8.0 Very good (23155 ratings)":
+          - text: "8.0"
+          - strong: Very good
+          - text: (23155 ratings)
+        - button "Expedia Free cancellationbefore Jan 19 $69 View Deal Includes all fees (excludes taxes)":
+          - text: Expedia
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 19"
+          - text: $69
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices":
+          - text: $62
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $75 Agoda
+    - listitem:
+      - article:
+        - button "Baymont by Wyndham Las Vegas South Strip, (Las Vegas, USA) 1 / 37":
+          - img "Baymont by Wyndham Las Vegas South Strip, (Las Vegas, USA)"
+          - text: 1 / 37
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Baymont by Wyndham Las Vegas South Strip" [level=2]:
+          - button "Baymont by Wyndham Las Vegas South Strip"
+        - button "Hotel"
+        - button "Indoor pool open 24 hours, Pet-friendly accommodations available"
+        - button "4.4 miles to Bellagio Fountains"
+        - button "6.5 (5577 ratings)"
+        - button "trivago member price Our lowest price $65 Unlock":
+          - text: trivago member price Our lowest price $65
+          - button "Unlock"
+        - button "logo trivago Book & Go Breakfast included $69 View Deal Includes all fees (excludes taxes)":
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Breakfast included":
+              - button "Breakfast included"
+          - text: $69
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "Days Inn by Wyndham Las Vegas Airport Near the Strip, (Las Vegas, USA) 1 / 41":
+          - img "Days Inn by Wyndham Las Vegas Airport Near the Strip, (Las Vegas, USA)"
+          - text: 1 / 41
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Days Inn by Wyndham Las Vegas Airport Near the Strip" [level=2]:
+          - button "Days Inn by Wyndham Las Vegas Airport Near the Strip"
+        - button "Hotel"
+        - button "Proximity to Airport and The Strip, Outdoor Pool and BBQ Grills"
+        - button "1.2 miles to Bellagio Fountains"
+        - button "7.4 (9497 ratings)"
+        - button "25% lower than other sites Our lowest price logo trivago Book & Go Free cancellation $74 View Deal Includes all fees (excludes taxes)":
+          - button "25% lower than other sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $74
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $99 Expedia $106 Booking.com
+    - listitem:
+      - article:
+        - button "Motel 6-Las Vegas, NV - Tropicana, (Las Vegas, USA) 1 / 49":
+          - img "Motel 6-Las Vegas, NV - Tropicana, (Las Vegas, USA)"
+          - text: 1 / 49
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Motel 6-Las Vegas, NV - Tropicana" [level=2]:
+          - button "Motel 6-Las Vegas, NV - Tropicana"
+        - button "Hotel"
+        - button "Refreshing Outdoor Pool, Denny's Restaurant Nearby"
+        - button "1.1 miles to Bellagio Fountains"
+        - button "7.0 (11308 ratings)"
+        - button "47% Lower than predicted Our lowest price Booking.com Free cancellationbefore Jan 21 Pay at the property $74 View Deal Includes all fees (excludes taxes)":
+          - button "47% Lower than predicted"
+          - text: Our lowest price Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 21"
+            - listitem "Pay at the property":
+              - button "Pay at the property"
+          - text: $74
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $74 Hotels.com $75 Stayforlong
+    - listitem:
+      - article:
+        - button "Fremont Hotel & Casino, (Las Vegas, USA) 1 / 50":
+          - img "Fremont Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 50
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Fremont Hotel & Casino" [level=2]:
+          - button "Fremont Hotel & Casino"
+        - button "Hotel"
+        - button "Seasonal Outdoor Pool and Fitness, Casino and Evening Entertainment"
+        - button "0.0 miles to Fremont Street Experience"
+        - button "8.4 Very good (18857 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (18857 ratings)
+        - button "32% lower than other sites Our lowest price logo trivago Book & Go Free cancellation $75 View Deal Includes all fees (excludes taxes)":
+          - button "32% lower than other sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $75
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $110 Morerooms $113 Expedia
+    - listitem:
+      - article:
+        - button "Travelodge by Wyndham Las Vegas, (Las Vegas, USA) 1 / 43":
+          - img "Travelodge by Wyndham Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 43
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Travelodge by Wyndham Las Vegas" [level=2]:
+          - button "Travelodge by Wyndham Las Vegas"
+        - button "Motel"
+        - button "Invigorating Outdoor Pool Plunge, Suites with Whirlpool Tubs"
+        - button "1.9 miles to Bellagio Fountains"
+        - button "6.0 (3536 ratings)"
+        - button "27% lower than other sites Our lowest price logo trivago Book & Go Free cancellation $77 View Deal Includes all fees (excludes taxes)":
+          - button "27% lower than other sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $77
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $105 Expedia $105 Hotels.com
+    - listitem:
+      - article:
+        - button "The D Las Vegas, (Las Vegas, USA) 1 / 64":
+          - img "The D Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 64
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "The D Las Vegas" [level=2]:
+          - button "The D Las Vegas"
+        - button "Resort"
+        - button "Outdoor Pool and Hot Tub Oasis, Contemporary Rooms and Suites"
+        - button "0.1 miles to Fremont Street Experience"
+        - button "8.1 Very good (38508 ratings)":
+          - text: "8.1"
+          - strong: Very good
+          - text: (38508 ratings)
+        - button "28% lower than other sites Our lowest price roomsXXL Free cancellation $79 View Deal Includes all fees (excludes taxes)":
+          - button "28% lower than other sites"
+          - text: Our lowest price roomsXXL
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $79
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices":
+          - text: $109
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $119 Booking.com
+    - listitem:
+      - article:
+        - button "Motel 6 Las Vegas NV Downtown Fremont St, (Las Vegas, USA) 1 / 12":
+          - img "Motel 6 Las Vegas NV Downtown Fremont St, (Las Vegas, USA)"
+          - text: 1 / 12
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Motel 6 Las Vegas NV Downtown Fremont St" [level=2]:
+          - button "Motel 6 Las Vegas NV Downtown Fremont St"
+        - button "Hotel"
+        - button "Quiet Atmosphere for Relaxing Stay, Convenient Location Near Downtown Vegas"
+        - button "0.2 miles to Bellagio Fountains"
+        - button "6.9 (389 ratings)"
+        - button "56% Lower than predicted Our lowest price Booking.com Free cancellationbefore Jan 21 Pay at the property $79 View Deal Includes all fees (excludes taxes)":
+          - button "56% Lower than predicted"
+          - text: Our lowest price Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 21"
+            - listitem "Pay at the property":
+              - button "Pay at the property"
+          - text: $79
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $79 Hotels.com $79 Expedia
+    - listitem:
+      - article:
+        - button "Motel 6-Las Vegas, NV - I-15 Stadium, (Las Vegas, USA)":
+          - img "Motel 6-Las Vegas, NV - I-15 Stadium, (Las Vegas, USA)"
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Motel 6-Las Vegas, NV - I-15 Stadium" [level=2]:
+          - button "Motel 6-Las Vegas, NV - I-15 Stadium"
+        - button "Guesthouse"
+        - button "Outdoor Pool for Relaxation, Budget-Friendly Vegas Option"
+        - button "1.1 miles to Bellagio Fountains"
+        - button "6.7 (4670 ratings)"
+        - button "46% Lower than predicted Our lowest price Booking.com Free cancellationbefore Jan 19 Pay at the property $79 View Deal Includes all fees (excludes taxes)":
+          - button "46% Lower than predicted"
+          - text: Our lowest price Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 19"
+            - listitem "Pay at the property":
+              - button "Pay at the property"
+          - text: $79
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $79 Stayforlong $79 eDreams
+    - listitem:
+      - article:
+        - button "Motel 6-Las Vegas, NV - Boulder Hwy, (Las Vegas, USA) 1 / 29":
+          - img "Motel 6-Las Vegas, NV - Boulder Hwy, (Las Vegas, USA)"
+          - text: 1 / 29
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Motel 6-Las Vegas, NV - Boulder Hwy" [level=2]:
+          - button "Motel 6-Las Vegas, NV - Boulder Hwy"
+        - button "Guesthouse"
+        - button "Outdoor Pool for Relaxation, Budget-friendly Boulder Highway Stay"
+        - button "4.3 miles to Fremont Street Experience"
+        - button "6.6 (5238 ratings)"
+        - button "Our lowest price Booking.com Free cancellationbefore Jan 19 Pay at the property $79 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 19"
+            - listitem "Pay at the property":
+              - button "Pay at the property"
+          - text: $79
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $80 Stayforlong $79 eDreams
+    - listitem:
+      - article:
+        - button "California Hotel & Casino, (Las Vegas, USA) 1 / 53":
+          - img "California Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 53
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "California Hotel & Casino" [level=2]:
+          - button "California Hotel & Casino"
+        - button "Hotel"
+        - button "Well-Equipped Fitness Center, Convenient Fremont Street Proximity"
+        - button "0.2 miles to Fremont Street Experience"
+        - button "8.3 Very good (9390 ratings)":
+          - text: "8.3"
+          - strong: Very good
+          - text: (9390 ratings)
+        - button "Our lowest price logo trivago Book & Go Free cancellation $81 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $81
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $112 Expedia $112 Hotels.com
+    - listitem:
+      - article:
+        - button "Extended Stay America Suites - Las Vegas - East Flamingo, (Las Vegas, USA) 1 / 41":
+          - img "Extended Stay America Suites - Las Vegas - East Flamingo, (Las Vegas, USA)"
+          - text: 1 / 41
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Extended Stay America Suites - Las Vegas - East Flamingo" [level=2]:
+          - button "Extended Stay America Suites - Las Vegas - East Flamingo"
+        - button "Hotel"
+        - button "Refreshing outdoor pool and spa tub, Pet-Friendly Accommodations"
+        - button "2.5 miles to Fremont Street Experience"
+        - button "6.2 (1508 ratings)"
+        - button "55% Lower than predicted Our lowest price Expedia $81 View Deal Includes all fees (excludes taxes)":
+          - button "55% Lower than predicted"
+          - text: Our lowest price Expedia $81
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $95 Booking.com $81 Hotels.com
+    - listitem:
+      - article:
+        - button "OYO Oasis Motel Las Vegas I-15, (Las Vegas, USA) 1 / 39":
+          - img "OYO Oasis Motel Las Vegas I-15, (Las Vegas, USA)"
+          - text: 1 / 39
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "OYO Oasis Motel Las Vegas I-15" [level=2]:
+          - button "OYO Oasis Motel Las Vegas I-15"
+        - button "Hotel"
+        - button "Budget-Friendly Vegas Getaway, Upgraded Rooms with Whirlpool Tubs"
+        - button "1.5 miles to Fremont Street Experience"
+        - button "3.9 (603 ratings)"
+        - button "Our lowest price logo trivago Book & Go Free cancellation $83 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $83
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $104 Hotels.com $122 Agoda
+    - listitem:
+      - article:
+        - button "Sky Ranch Motel, (Las Vegas, USA)":
+          - img "Sky Ranch Motel, (Las Vegas, USA)"
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Sky Ranch Motel" [level=2]:
+          - button "Sky Ranch Motel"
+        - button "Entire House / Apartment"
+        - button "4.4 miles to City center"
+        - button "5.9 (50 ratings)"
+        - button "Rodeway Inn Hotels Free cancellation $85 View Deal Prices include all taxes and fees.":
+          - text: Rodeway Inn Hotels
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $85
+          - button "View Deal"
+          - paragraph: Prices include all taxes and fees.
+        - button "Show all prices": $75 Hotels.com
+    - listitem:
+      - article:
+        - button "OYO Hotel and Casino Las Vegas, (Las Vegas, USA) 1 / 66":
+          - img "OYO Hotel and Casino Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 66
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "OYO Hotel and Casino Las Vegas" [level=2]:
+          - button "OYO Hotel and Casino Las Vegas"
+        - button "Resort"
+        - button "Refreshing Pools and Poolside Bar, Vibrant Casino Action and Entertainment"
+        - button "1.0 miles to Bellagio Fountains"
+        - button "6.5 (40916 ratings)"
+        - button "PriceTravel Pay in installments $88 View Deal Prices include all taxes and fees.":
+          - text: PriceTravel
+          - list:
+            - listitem "Pay in installments":
+              - button "Pay in installments"
+          - text: $88
+          - button "View Deal"
+          - paragraph: Prices include all taxes and fees.
+        - button "Show all prices": $75 Morerooms $133 Booking.com
+    - listitem:
+      - article:
+        - button "Alexis Park All Suite Resort, (Las Vegas, USA) 1 / 99":
+          - img "Alexis Park All Suite Resort, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Alexis Park All Suite Resort" [level=2]:
+          - button "Alexis Park All Suite Resort"
+        - button "Hotel"
+        - button "Three Refreshing Outdoor Pools, Easy access to airport"
+        - button "1.2 miles to Bellagio Fountains"
+        - button "7.5 Good (9901 ratings)":
+          - text: "7.5"
+          - strong: Good
+          - text: (9901 ratings)
+        - button "Our lowest price logo trivago Book & Go $89 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $89
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $131 Expedia $131 Hotels.com
+    - listitem:
+      - article:
+        - button "Tahiti Vacation Club, (Las Vegas, USA)":
+          - img "Tahiti Vacation Club, (Las Vegas, USA)"
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Tahiti Vacation Club" [level=2]:
+          - button "Tahiti Vacation Club"
+        - button "Entire House / Apartment"
+        - button "2.3 miles to City center"
+        - button "/ No rating available"
+        - button "Our lowest price Stayforlong $90 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price Stayforlong $90
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+    - listitem:
+      - article:
+        - button "1 Bedroom Accommodation In Las Vegas, (Las Vegas, USA) 1 / 25":
+          - img "1 Bedroom Accommodation In Las Vegas, (Las Vegas, USA)"
+          - text: 1 / 25
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "1 Bedroom Accommodation In Las Vegas" [level=2]:
+          - button "1 Bedroom Accommodation In Las Vegas"
+        - button "Entire House / Apartment"
+        - button "0.0 miles to City center"
+        - button "/ No rating available"
+        - button "Our lowest price Mainstay Suites $91 View Deal Prices include all taxes and fees.":
+          - text: Our lowest price Mainstay Suites $91
+          - button "View Deal"
+          - paragraph: Prices include all taxes and fees.
+    - listitem:
+      - article:
+        - button "Tahiti All-Suite Resort, (Las Vegas, USA) 1 / 58":
+          - img "Tahiti All-Suite Resort, (Las Vegas, USA)"
+          - text: 1 / 58
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Tahiti All-Suite Resort" [level=2]:
+          - button "Tahiti All-Suite Resort"
+        - button "Resort"
+        - button "Refreshing Pools and Hot Tub, South Pacific-themed Resort"
+        - button "2.1 miles to Bellagio Fountains"
+        - button "8.4 Very good (7057 ratings)":
+          - text: "8.4"
+          - strong: Very good
+          - text: (7057 ratings)
+        - button "TravelUp $94 View Deal Includes all fees (excludes taxes)":
+          - text: TravelUp $94
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $89 Expedia $115 Booking.com
+    - listitem:
+      - article:
+        - button "Skyline Hotel and Casino, (Las Vegas, USA) 1 / 33":
+          - img "Skyline Hotel and Casino, (Las Vegas, USA)"
+          - text: 1 / 33
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Skyline Hotel and Casino" [level=2]:
+          - button "Skyline Hotel and Casino"
+        - button "Hotel"
+        - button "Invigorating outdoor pool escape, Exceptional Restaurant Value"
+        - button "9.8 miles to City center"
+        - button "8.3 Very good (5512 ratings)":
+          - text: "8.3"
+          - strong: Very good
+          - text: (5512 ratings)
+        - button "27% lower than other sites Our lowest price logo trivago Book & Go Free cancellation Breakfast included $95 View Deal Includes all fees (excludes taxes)":
+          - button "27% lower than other sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+            - listitem "Breakfast included":
+              - button "Breakfast included"
+          - text: $95
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $130 Booking.com $130 Expedia
+    - listitem:
+      - article:
+        - button "Arizona Charlie's Boulder, (Las Vegas, USA) 1 / 51":
+          - img "Arizona Charlie's Boulder, (Las Vegas, USA)"
+          - text: 1 / 51
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Arizona Charlie's Boulder" [level=2]:
+          - button "Arizona Charlie's Boulder"
+        - button "Hotel"
+        - button "Refreshing outdoor pool and spa tub, Budget-Friendly Option"
+        - button "5.1 miles to Fremont Street Experience"
+        - button "7.0 (11107 ratings)"
+        - button "21% lower than other sites Our lowest price logo trivago Book & Go Free cancellation $96 View Deal Includes all fees (excludes taxes)":
+          - button "21% lower than other sites"
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $96
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $122 Morerooms $129 Booking.com
+    - listitem:
+      - article:
+        - button "Rio Hotel & Casino, a Destination by Hyatt Hotel., (Las Vegas, USA) 1 / 99":
+          - img "Rio Hotel & Casino, a Destination by Hyatt Hotel., (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Rio Hotel & Casino, a Destination by Hyatt Hotel." [level=2]:
+          - button "Rio Hotel & Casino, a Destination by Hyatt Hotel."
+        - button "Resort"
+        - button "VooDoo Steak with Iconic Views, Pool Oasis with Whirlpools"
+        - button "0.6 miles to Bellagio Fountains"
+        - button "7.4 (88111 ratings)"
+        - button "Our lowest price logo trivago Book & Go Free cancellation $97 View Deal Includes all fees (excludes taxes)":
+          - text: Our lowest price
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellation"
+          - text: $97
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $219 Expedia $219 Booking.com
+    - listitem:
+      - article:
+        - button "Sunset Station Hotel & Casino, (Las Vegas, USA) 1 / 99":
+          - img "Sunset Station Hotel & Casino, (Las Vegas, USA)"
+          - text: 1 / 99
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - list:
+          - listitem:
+            - button "Popular choice"
+        - heading "Sunset Station Hotel & Casino" [level=2]:
+          - button "Sunset Station Hotel & Casino"
+        - button "Hotel"
+        - button "Beautiful pool and outdoor space, Family-Friendly Attractions"
+        - button "8.3 miles to City center"
+        - button "8.5 Excellent (25058 ratings)":
+          - text: "8.5"
+          - strong: Excellent
+          - text: (25058 ratings)
+        - button "logo trivago Book & Go $97 View Deal Includes all fees (excludes taxes)":
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $97
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $92 sembo $139 Expedia
+    - listitem:
+      - article:
+        - button "Golden Gate Casino Hotel, (Las Vegas, USA) 1 / 38":
+          - img "Golden Gate Casino Hotel, (Las Vegas, USA)"
+          - text: 1 / 38
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Golden Gate Casino Hotel" [level=2]:
+          - button "Golden Gate Casino Hotel"
+        - button "Hotel"
+        - button "Signature Shrimp Cocktail at the Deli, Historic Charm on Fremont Street"
+        - button "0.1 miles to Fremont Street Experience"
+        - button "7.5 Good (10936 ratings)":
+          - text: "7.5"
+          - strong: Good
+          - text: (10936 ratings)
+        - button "Booking.com Free cancellationbefore Jan 17 $99 View Deal Includes all fees (excludes taxes)":
+          - text: Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 17"
+          - text: $99
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices":
+          - text: $90
+          - img "logo"
+          - paragraph: trivago Book & Go
+          - text: $99 Expedia
+    - listitem:
+      - article:
+        - button "Siegel Select Las Vegas Boulevard, (Las Vegas, USA) 1 / 44":
+          - img "Siegel Select Las Vegas Boulevard, (Las Vegas, USA)"
+          - text: 1 / 44
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Siegel Select Las Vegas Boulevard" [level=2]:
+          - button "Siegel Select Las Vegas Boulevard"
+        - button "Motel"
+        - button "Budget-Friendly Extended Stay Option, Outdoor pool and fitness center"
+        - button "3.8 miles to Bellagio Fountains"
+        - button "7.1 (1475 ratings)"
+        - button "Booking.com Free cancellationbefore Jan 18 $99 View Deal Includes all fees (excludes taxes)":
+          - text: Booking.com
+          - list:
+            - listitem "Free cancellation":
+              - button "Free cancellationbefore Jan 18"
+          - text: $99
+          - button "View Deal"
+          - paragraph: Includes all fees (excludes taxes)
+        - button "Show all prices": $89 Expedia $89 Hotels.com
+    - listitem:
+      - article:
+        - button "Extended Stay America Suites - Las Vegas - Midtown, (Las Vegas, USA) 1 / 49":
+          - img "Extended Stay America Suites - Las Vegas - Midtown, (Las Vegas, USA)"
+          - text: 1 / 49
+        - button "Add to favorites":
+          - img
+          - text: Add to favorites
+        - heading "Extended Stay America Suites - Las Vegas - Midtown" [level=2]:
+          - button "Extended Stay America Suites - Las Vegas - Midtown"
+        - button "Hotel"
+        - button "Outdoor Pool and Spa Tub, Pet-Friendly Accommodations"
+        - button "2.5 miles to Fremont Street Experience"
+        - button "6.7 (2119 ratings)"
+        - button "Mainstay Suites $103 View Deal Prices include all taxes and fees.":
+          - text: Mainstay Suites $103
+          - button "View Deal"
+          - paragraph: Prices include all taxes and fees.
+        - button "Show all prices": $91 Expedia $107 Booking.com
+  - navigation "wrapper":
+    - list:
+      - listitem:
+        - button "1"
+      - listitem:
+        - button "2"
+      - listitem:
+        - button "3"
+      - listitem:
+        - button "4"
+      - listitem:
+        - button "5"
+      - listitem:
+        - button "6"
+      - listitem:
+        - button "next"
+    - button
+  - paragraph: The prices and availability we receive from booking sites change constantly. This means you may not always find the exact same offer you saw on trivago when you land on the booking site.
+  - img
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/trivagoUS
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/trivago
+    - listitem:
+      - link "Instagram":
+        - /url: https://instagram.com/trivago/
+    - listitem:
+      - link "Youtube":
+        - /url: https://www.youtube.com/user/trivago
+    - listitem:
+      - link "Linkedin":
+        - /url: https://www.linkedin.com/company/trivagonv/
+  - combobox "Choose your country":
+    - option "Arab World (العالم العربي)"
+    - option "Argentina"
+    - option "Australia"
+    - option "Austria (Österreich)"
+    - option "Belgium (België)"
+    - option "Brazil (Brasil)"
+    - option "Bulgaria (България)"
+    - option "Canada"
+    - option "Chile"
+    - option "Colombia"
+    - option "Croatia (Hrvatska)"
+    - option "Czechia (Česko)"
+    - option "Denmark (Danmark)"
+    - option "Ecuador"
+    - option "Finland (Suomi)"
+    - option "France"
+    - option "Germany (Deutschland)"
+    - option "Greece (Ελλάδα)"
+    - option "Hong Kong (香港)"
+    - option "Hungary (Magyarország)"
+    - option "India"
+    - option "Indonesia"
+    - option "Ireland"
+    - option "Israel (ישראל)"
+    - option "Italy (Italia)"
+    - option "Japan (日本)"
+    - option "Korea (한국)"
+    - option "Malaysia"
+    - option "Mexico (México)"
+    - option "Netherlands (Nederland)"
+    - option "New Zealand"
+    - option "Norway (Norge)"
+    - option "Peru (Perú)"
+    - option "Philippines (Pilipinas)"
+    - option "Poland (Polska)"
+    - option "Portugal"
+    - option "Romania (România)"
+    - option "Serbia (Srbija)"
+    - option "Singapore"
+    - option "Slovakia (Slovensko)"
+    - option "Slovenia (Slovenija)"
+    - option "South Africa"
+    - option "Spain (España)"
+    - option "Sweden (Sverige)"
+    - option "Switzerland (Schweiz)"
+    - option "Taiwan (台灣)"
+    - option "Thailand (ประเทศไทย)"
+    - option "Turkey (Türkiye)"
+    - option "UAE"
+    - option "United Kingdom"
+    - option "Uruguay"
+    - option "USA" [selected]
+    - option "Vietnam (Việt Nam)"
+  - list:
+    - listitem:
+      - link "Company":
+        - /url: https://company.trivago.com/
+    - listitem:
+      - link "Jobs":
+        - /url: https://company.trivago.com/open-positions/?gh_src=21d449cf2
+    - listitem:
+      - link "Press":
+        - /url: https://company.trivago.com/press/
+    - listitem:
+      - link "Investor relations":
+        - /url: https://ir.trivago.com/
+  - list:
+    - listitem:
+      - link "Mobile apps - searching on the go":
+        - /url: https://www.trivago.com/en-US/app
+    - listitem:
+      - link "trivago for hoteliers":
+        - /url: https://studio.trivago.com/home
+    - listitem:
+      - link "Affiliate":
+        - /url: https://www.travelpayouts.com/en/offers/trivago-affiliate-program
+  - list:
+    - listitem:
+      - link "Help":
+        - /url: https://support.trivago.com/hc/en-us
+    - listitem:
+      - link "Learn how trivago works":
+        - /url: https://support.trivago.com/hc/en-us/sections/360000014707
+    - listitem:
+      - link "Terms and conditions":
+        - /url: https://www.trivago.com/en-US/st/terms-of-service
+    - listitem:
+      - link "Legal information":
+        - /url: https://www.trivago.com/en-US/sl/legal-information
+    - listitem:
+      - button "Do not sell my personal information"
+    - listitem:
+      - link "Privacy notice":
+        - /url: https://www.trivago.com/en-US/sp/privacy-policy
+    - listitem:
+      - link "DSA information":
+        - /url: https://company.trivago.com/dsa-information/
+    - listitem:
+      - link "Cybersecurity":
+        - /url: https://www.trivago.com/en-US/scs/cyber-security
+    - listitem:
+      - link "Vulnerability Disclosure Program":
+        - /url: https://vdp.trivago.com
+  - heading "Get exclusive inspiration for your next stay – subscribe to our newsletter." [level=2]
+  - textbox "Email address"
+  - text: Email address
+  - button "Subscribe"
+  - paragraph:
+    - strong: trivago N.V.
+    - text: ", Kesselstraße 5 – 7, 40221 Düsseldorf, Germany"
+  - paragraph: Copyright 2025 trivago | All rights reserved.
+  - button "Expand map"
+  - button
+  - button "Keyboard shortcuts"
+  - region "Map"
+  - button "$43":
+    - strong: $43
+  - button "$54":
+    - strong: $54
+  - button "$56":
+    - strong: $56
+  - button "$58" [pressed]:
+    - strong: $58
+  - button "$59":
+    - strong: $59
+  - button "$59":
+    - strong: $59
+  - button "$60":
+    - strong: $60
+  - button "$66":
+    - strong: $66
+  - button "$66":
+    - strong: $66
+  - button "$69":
+    - strong: $69
+  - button "$69":
+    - strong: $69
+  - button "$74":
+    - strong: $74
+  - button "$74":
+    - strong: $74
+  - button "$75":
+    - strong: $75
+  - button "$77":
+    - strong: $77
+  - button "$79":
+    - strong: $79
+  - button "$79":
+    - strong: $79
+  - button "$79":
+    - strong: $79
+  - button "$79":
+    - strong: $79
+  - button "$81":
+    - strong: $81
+  - button "$81":
+    - strong: $81
+  - button "$83":
+    - strong: $83
+  - button "$85":
+    - strong: $85
+  - button "$88":
+    - strong: $88
+  - button "$89":
+    - strong: $89
+  - button "$90":
+    - strong: $90
+  - button "$91":
+    - strong: $91
+  - button "$94":
+    - strong: $94
+  - button "$95":
+    - strong: $95
+  - button "$96":
+    - strong: $96
+  - button "$97":
+    - strong: $97
+  - button "$97":
+    - strong: $97
+  - button "$99":
+    - strong: $99
+  - button "$99":
+    - strong: $99
+  - button "$103":
+    - strong: $103
+  - button "Zoom in"
+  - button "Zoom out"
+  - link "Open this area in Google Maps (opens a new window)":
+    - /url: https://maps.google.com/maps?ll=36.11166,-115.14311&z=12.218748323904649&t=m&hl=en&gl=US&mapclient=apiv3
+    - img "Google"
+  - button "Keyboard shortcuts"
+  - text: Map Data ©2025 Google
+  - 'button "Map Scale: 2 km per 75 pixels"': 2 km
+  - link "Terms":
+    - /url: https://www.google.com/intl/en_US/help/terms_maps.html
+- alert: Las Vegas Hotels | Find and compare great deals on trivago
+```
