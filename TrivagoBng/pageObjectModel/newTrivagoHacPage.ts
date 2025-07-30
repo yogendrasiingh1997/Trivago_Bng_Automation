@@ -54,7 +54,7 @@ export class newTrivagoHacPage {
       const dealCount = await this.dealList.count();
 
       for (let i = 0; i < dealCount; i++) 
-    {
+      {
         const deal = this.dealList.nth(i);
         try 
         {
@@ -122,6 +122,6 @@ export class newTrivagoHacPage {
             continue;
           }
         }
-    }
+      }
   } 
 }
