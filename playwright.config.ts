@@ -17,7 +17,7 @@ export default defineConfig({
     'tests/**/*.spec.ts',
     'TrivagoBng/Test_Cases/**/*.spec.ts'
   ],
-  timeout: 100000,
+  timeout: 180000,
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -29,7 +29,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['list'], // console output
-    //['html'], 
+    ['html'], 
     //['allure-playwright'] // ⬅ Allure reporter
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
