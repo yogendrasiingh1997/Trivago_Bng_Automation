@@ -1,7 +1,7 @@
-import {test, Page, Locator } from '@playwright/test';
+import {Page, Locator } from '@playwright/test';
+import { commonDetails} from '../data/commonDetails';
 
-
-export class newTrivagoHomePage{
+export class trivagoHomePage{
     page: Page;
     
     constructor(page: Page)
@@ -10,44 +10,43 @@ export class newTrivagoHomePage{
     }
 
     get acceptcookies():Locator{
-        return this.page.getByTestId('uc-accept-all-button')
+        return this.page.getByTestId('uc-accept-all-button');
     }
 
     get searchBox():Locator{
-        return this.page.getByTestId('search-form-destination')
+        return this.page.getByTestId('search-form-destination');
     }
 
     get list():Locator{
-        return this.page.getByTestId('ssg-element')
+        return this.page.getByTestId('ssg-element');
     }
 
     get nextMonth():Locator{
-        return this.page.getByTestId('calendar-button-next')
+        return this.page.getByTestId('calendar-button-next');
     }
 
     get searchBtn():Locator{
-        return this.page.getByTestId('search-button-with-loader')
+        return this.page.getByTestId('search-button-with-loader');
     }
 
     get allDates():Locator{
-        return this.page.locator("//div[@class='uxgGry']//button")
+        return this.page.locator("//div[@class='uxgGry']//button");
     }
 
     get currentMonth():Locator{
-        return this.page.locator("//div[@class='uxgGry']/h3")
+        return this.page.locator("//div[@class='uxgGry']/h3");
     }
 
-    
-    async Trivago()
+    async openTrivagoWebsite()
     {
-        await this.page.goto("https://www.trivago.com/?sCTestIdList=71307")
-        await this.page.waitForLoadState('load'); // wait until fully loaded
+        await this.page.goto(commonDetails.websiteURL);
+        await this.page.waitForLoadState('load');
         await this.acceptcookies.click();
     }
 
-    async Destination()
+    async searchForDestination()
     {
-        await this.searchBox.fill("Las")
+        await this.searchBox.fill(commonDetails.location);
 
         await this.list.first().waitFor({ timeout: 10000 });
 
@@ -57,13 +56,13 @@ export class newTrivagoHomePage{
         for(let i=0; i<count;i++)
         {
             const suggestions = locationList.nth(i);
-            const titleElement= suggestions.getByTestId('suggestion-title')
-            const subtitleElement= suggestions.getByTestId('suggestion-subtitle')
+            const titleElement= suggestions.getByTestId('suggestion-title');
+            const subtitleElement= suggestions.getByTestId('suggestion-subtitle');
 
             const title= (await titleElement.textContent())?.replace(/\s+/g, ' ').trim();
             const subTitle= await subtitleElement.textContent();
 
-            if(title?.toLowerCase()==="las vegas" && subTitle?.includes("Nevada"))
+            if(title?.toLowerCase()===commonDetails.title && subTitle?.includes(commonDetails.subTitle))
             {
                 await suggestions.click();
                 console.log(`Selected: ${title} - ${subTitle}`);
@@ -72,12 +71,11 @@ export class newTrivagoHomePage{
         }
     }
 
-    async dateSelection(monthYear: string, checkIn: string, checkOut: string)
+    async dateSelection()
     {
         //Month Year selection
-
         await this.page.evaluate(() => {
-        const scrollContainer = document.querySelector('.scrollable-container'); // adjust selector
+        const scrollContainer = document.querySelector('.scrollable-container');
         if (scrollContainer && scrollContainer.scrollTop > 0) 
             {
                 scrollContainer.scrollTo({ top: 0, behavior: 'auto' });
@@ -87,14 +85,13 @@ export class newTrivagoHomePage{
         while (true)
         {
             const currentMonthYear= await this.currentMonth.nth(0).textContent()
-            if(currentMonthYear ===monthYear)
+            if(currentMonthYear ===commonDetails.monthYear)
             break;
             await this.nextMonth.click();
         }
 
         //CheckIn date
-
-        const dates= this.allDates
+        const dates= this.allDates;
         const count = await dates.count();
         
         for (let i = 0; i < count; i++) 
@@ -102,30 +99,27 @@ export class newTrivagoHomePage{
             const dateBtn = dates.nth(i);
             const datetext = await dateBtn.textContent();
 
-            if (datetext?.trim() === checkIn) 
+            if (datetext?.trim() === commonDetails.checkIn) 
                 {
-                    console.log("✅ Check-in Date: " + datetext + " " + monthYear);
+                    console.log("✅ Check-in Date: " + datetext + " " + commonDetails.monthYear);
                     await dateBtn.click(); 
                     break;
                 }
         }
 
         //Checkout date
-        
         for (let j = 0; j < count; j++) 
         {
             const dateBtn = dates.nth(j);
             const datetext = await dateBtn.textContent();
 
-            if (datetext?.trim() === checkOut) 
+            if (datetext?.trim() === commonDetails.checkOut) 
             {
-                console.log("✅ Check-out Date: " + datetext + " " + monthYear);
-                await dateBtn.click(); // ✅ using Locator, safe click
+                console.log("✅ Check-out Date: " + datetext + " " + commonDetails.monthYear);
+                await dateBtn.click();
                 break;
             }
         }
-
         await this.searchBtn.click();
     }
-
 }

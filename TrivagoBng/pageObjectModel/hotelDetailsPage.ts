@@ -1,5 +1,5 @@
-import { test, Page, expect, Locator } from '@playwright/test';
-export class newHotelDetailsPage{
+import {Page, expect, Locator } from '@playwright/test';
+export class bngHoteldetailsPage{
     page: Page;
    
     constructor(page: Page)
@@ -8,7 +8,7 @@ export class newHotelDetailsPage{
     }
 
     get allRooms():Locator{
-        return this.page.locator("//div[contains(@class, 'MuiStack-root') and contains(@class, 'hotel-room__room') and contains(@class, 'css-j7qwjs')]/div")
+        return this.page.locator("//div[contains(@class, 'hotel-room__room') and contains(@class, 'css-j7qwjs')]/div")
     }
 
     get cookieAccept():Locator{

@@ -1,5 +1,5 @@
-import { test, Page, Locator } from '@playwright/test';
-export class newTrivagoHacPage {
+import {Page, Locator } from '@playwright/test';
+export class trivagoHacPage {
  
   page: Page
  
@@ -32,8 +32,7 @@ export class newTrivagoHacPage {
     return this.page.getByTestId('filters-popover-apply-button');
   }
 
- 
-  async applyPriceFilter() : Promise<void>
+  async applyPriceFilter()
   {
     await this.sorting.first().click();
     await this.priceSort.click();
@@ -43,12 +42,9 @@ export class newTrivagoHacPage {
 
   async selectBngDealOnTrivagoHAC()
   {   
-      // Zoom out page
       await this.page.evaluate(() => {
         document.body.style.zoom = '67%';
       });
-
-      //await this.page.locator("//button[@data-testid='additional-prices-slideout-entry-point']//span[3]").first().waitFor({ timeout: 20000 });
 
       await this.page.getByTestId('additional-prices-slideout-entry-point').nth(3).waitFor({ timeout: 20000 });
       const dealCount = await this.dealList.count();
@@ -64,7 +60,6 @@ export class newTrivagoHacPage {
           continue;
         }
 
-        // Wait for advertiser section
         try 
         {
           await this.page.getByTestId('all-slideout-deals').nth(i).locator("li").first().waitFor({ timeout: 10000 });
@@ -72,7 +67,6 @@ export class newTrivagoHacPage {
           continue;
         }
 
-        // Click "Show More" if available
         try 
         {
           if (await this.showMoreBtn.isVisible({ timeout: 2000 })) 
@@ -82,7 +76,6 @@ export class newTrivagoHacPage {
             }
         } catch {}
 
-        // Find section related to current deal
         const allSections = this.page.getByTestId('all-slideout-deals').nth(i);
         const advertisers = allSections.locator("li");
         const advertiserCount = await advertisers.count();
@@ -103,7 +96,6 @@ export class newTrivagoHacPage {
                 const viewBtn = dealItem.getByTestId('clickOutButton');
                 await viewBtn.scrollIntoViewIfNeeded();
                 
-                //handle window
                 const [BaPage] = await Promise.all([
                   this.page.waitForEvent("popup"),
                   viewBtn.click()
@@ -113,10 +105,6 @@ export class newTrivagoHacPage {
                 return BaPage;
               }
             }
-            // try  //closing deal iteam section 
-            // {
-            // this.page.locator("//button[@class='XXm3lZ']").click();
-            // } catch {}
           } catch (err) {
             console.log(`⚠️ Error in advertiser ${j}}`);
             continue;

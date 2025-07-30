@@ -2,12 +2,12 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "commonjs",
-    "rootDir": "./TrivagoBng",      // ✅ Set to your source code folder
-    "outDir": "./dist",             // ✅ Output compiled .js here
+    "rootDir": "trivagoBng", 
+    "outDir": "./dist",   
     "esModuleInterop": true,
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["TrivagoBng"]
+  "include": ["trivagoBng"]
 }

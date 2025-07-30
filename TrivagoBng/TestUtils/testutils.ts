@@ -1,5 +1,3 @@
-
-// 🔠 Random alphabetic string (letters only)
 export function randomString(length = 3) {
   const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   return Array.from({ length }, () =>
@@ -7,7 +5,6 @@ export function randomString(length = 3) {
   ).join('');
 }
 
-// 🔢 Random numeric string (digits only)
 export function randomNumber(length = 5) {
   const digits = '0123456789';
   return Array.from({ length }, () =>
@@ -15,7 +12,6 @@ export function randomNumber(length = 5) {
   ).join('');
 }
 
-// 🔡 Random alphanumeric-like email (e.g. "Aabcd@123")
 export function randomAlphanumeric() {
   const upper = randomString(1).toUpperCase();
   const lower = randomString(5);
@@ -23,7 +19,6 @@ export function randomAlphanumeric() {
   return `${upper}${lower}@${number}`;
 }
 
-// 📧 Random email (more realistic)
 export function randomEmail(domain = "example.com") {
   return `user_${randomString(5).toLowerCase()}${randomNumber(3)}@${domain}`;
 }

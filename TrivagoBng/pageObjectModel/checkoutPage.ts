@@ -1,7 +1,7 @@
 import { Page, Locator, FrameLocator } from '@playwright/test';
-import { BookingDetails } from '../Data/bookingDetails';
+import { BookingDetails } from '../data/bookingDetails';
 
-export class newCheckoutPage {
+export class bngCheckoutPage {
     
     page: Page;
 
@@ -10,7 +10,6 @@ export class newCheckoutPage {
         this.page=page;
     }
 
-    //Guest Info
     get firstName(): Locator {
     return this.page.locator("//input[@name='guestDetails.firstName']")
     }
@@ -31,7 +30,6 @@ export class newCheckoutPage {
         return this.page.locator("//textarea[@name='guestDetails.specialRequest']");
     }
 
-    //Card Info
     get cardnumberFrame(): FrameLocator{
         const locator=this.page.frameLocator("//iframe[contains(@id,'cardNumber')]");
         const frameLocator=locator;
@@ -56,7 +54,6 @@ export class newCheckoutPage {
         return this.cvvFrame.locator("//input[@id='field']");
     }
 
-    //Address Info
     get zipCode(): Locator{
         return this.page.locator("//input[@name='guestDetails.zipCode']")
     }
@@ -69,7 +66,6 @@ export class newCheckoutPage {
         return this.page.locator("//li[normalize-space()='Maine']")
     }
 
-    //Other 
     get privacyCheckbox():Locator{
         return this.page.locator("//input[@name='agreeAndBook.promotions']");
     }

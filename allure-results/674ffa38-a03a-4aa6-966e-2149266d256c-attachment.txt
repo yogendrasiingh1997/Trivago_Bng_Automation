@@ -1,7 +1,0 @@
-Selected: Las Vegas - City · Nevada, USA
-✅ Check-in Date: 20 January 2026
-✅ Check-out Date: 21 January 2026
-✅ BNG Deal is Selected
-HotelName: Downtowner Boutique Hotel Details
-BA Link: https://book.trivago.com/hotels/usa_las-vegas/64759_downtowner-boutique-hotel?checkIn=2026-01-20&checkOut=2026-01-21&occupancy=%5B%7B%22adults%22%3A2%2C%22children%22%3A%5B%5D%7D%5D&hotelId=2098245&tHotelId=64759&advertiserName=AlgotelsUbio&context=bng&pointOfSale=us&rateDisplayModel=NetPriceWithHotelFees&rateTypes=%5B%22Default%22%5D&currency=USD&language=EN&metadata=%7B%22jobId%22%3A%22aed04859-2a7f-bfc5-5be7-46e4ead27703%22%2C%22trv_reference%22%3A%22b7ce0ea2-80fc-30ea-aa08-9f9fb4a360bd%22%2C%22fraudDetectionToken%22%3A%2219a8d727-20e8-4854-ac00-c1b19c9c6794%22%7D
-✅ Free cancellation deal selected.

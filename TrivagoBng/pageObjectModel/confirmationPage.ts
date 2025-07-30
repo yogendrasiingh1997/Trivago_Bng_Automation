@@ -1,7 +1,6 @@
 import { test, Page, Locator } from '@playwright/test';
 
-
-export class ConfirmationPage{
+export class bngConfirmationPage{
     page: Page;
 
     constructor(page: Page)
