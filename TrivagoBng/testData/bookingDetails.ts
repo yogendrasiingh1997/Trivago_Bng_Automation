@@ -10,7 +10,6 @@ export const BookingDetails={
     zipCode: "04986",
 }
 
-// 🔠 Random alphabetic string (letters only)
 export function randomString(length = 3) {
   const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   return Array.from({ length }, () =>

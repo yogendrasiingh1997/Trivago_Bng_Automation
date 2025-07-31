@@ -1,5 +1,5 @@
 import { Page, Locator, FrameLocator } from '@playwright/test';
-import { BookingDetails } from '../data/bookingDetails';
+import { BookingDetails } from '../testData/bookingDetails';
 
 export class bngCheckoutPage {
     

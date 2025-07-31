@@ -1,5 +1,5 @@
 import {Page, Locator } from '@playwright/test';
-import { commonDetails} from '../data/commonDetails';
+import { commonDetails} from '../testData/commonDetails';
 
 export class trivagoHomePage{
     page: Page;
