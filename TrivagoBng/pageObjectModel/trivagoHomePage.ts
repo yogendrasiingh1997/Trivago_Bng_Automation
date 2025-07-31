@@ -71,7 +71,7 @@ export class trivagoHomePage{
         }
     }
 
-    async dateSelection()
+    async travelDateSelection()
     {
         //Month Year selection
         await this.page.evaluate(() => {

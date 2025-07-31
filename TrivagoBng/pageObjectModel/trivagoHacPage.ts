@@ -32,7 +32,7 @@ export class trivagoHacPage {
     return this.page.getByTestId('filters-popover-apply-button');
   }
 
-  async applyPriceFilter()
+  async applyPriceFilterOnTrivagoHAC()
   {
     await this.sorting.first().click();
     await this.priceSort.click();

@@ -19,7 +19,7 @@ export class bngHoteldetailsPage{
         return this.page.locator("//div[@class='desktop-menu__logo logo MuiBox-root css-82xpu']");
     }
     
-    async SelectfreeCancellationDeal()
+    async selectFreeCancellationDeal()
     {
         await this.page.waitForSelector("//button[normalize-space()='View deal']", { timeout: 100000 })
         await this.page.evaluate(() => {

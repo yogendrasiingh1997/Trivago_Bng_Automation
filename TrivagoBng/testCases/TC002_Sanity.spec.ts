@@ -18,11 +18,11 @@ test('Sanity', async({page}) =>{
     })
 
     await test.step("3. Select check-in and check-out dates and click on search button", async () => {
-        await homePage.dateSelection()
+        await homePage.travelDateSelection()
     })
 
     await test.step("4. Apply Price Filter on Trivago HAC Page", async () => {
-        await hacPage.applyPriceFilter();
+        await hacPage.applyPriceFilterOnTrivagoHAC();
     })
 
     await test.step("5. Find BNG Deal on Trivago HAC Page", async () => { 
@@ -32,7 +32,7 @@ test('Sanity', async({page}) =>{
         {
             await test.step("6. Selecting free cancellation deal on BA page of BNG", async () => {
             const bngHotelDetailsPage = new bngHoteldetailsPage(newTab);
-            await bngHotelDetailsPage.SelectfreeCancellationDeal();
+            await bngHotelDetailsPage.selectFreeCancellationDeal();
             })
 
             const bngCheckOutPage = new bngCheckoutPage(newTab)
